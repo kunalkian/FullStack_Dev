@@ -58,5 +58,5 @@
 
 These notes capture all the key instructional points and best practices shared in the video for beginners learning HTML's core structure and the reasoning behind meta tags.
 
-<!-- Check out these link here you would find all about the meta tags and their attributes -->
+Check out these link here you would find all about the meta tags and their attributes-
 https://developers.google.com/search/docs/crawling-indexing/special-tags

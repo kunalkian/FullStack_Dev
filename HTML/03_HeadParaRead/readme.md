@@ -39,7 +39,7 @@
 - Stresses the importance of reading official documentation and developer resources to deepen understanding beyond tutorials.
 - Knowing how to navigate and use documentation is crucial to becoming a proficient developer.
 
-These notes cover key aspects of HTML elements, attributes, and best practices for writing clean, semantic code using headings, paragraphs, and links, guiding beginners through efficient learning.
+These notes cover key aspects of HTML elements, attributes, and best practices for writing clean, semantic code using headings, paragraphs, and links, guiding beginners through efficient learnings.
 
 For '<a>' tag to know more refer this-
 https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/a

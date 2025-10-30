@@ -16,7 +16,7 @@
 
 ### Writing Basic HTML
 - While most know basic tags like `<h1>`, the video explains best practices for coding in a professional environment.
-- VSCode provides boilerplate code when typing an exclamation mark (`!`) and pressing `Tab`—this uses the Emmet toolkit, which is built into VSCode.
+- VSCode provides boilerplate code when typing an exclamation mark (`!`) and pressing `Tab`— this uses the Emmet toolkit, which is built into VSCode.
 - Using Emmet abbreviations speeds up writing and structuring HTML quickly and efficiently.
 - It's essential to ensure files have proper structure and are saved with the right file extensions.
 
