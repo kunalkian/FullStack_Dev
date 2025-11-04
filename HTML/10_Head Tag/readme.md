@@ -11,7 +11,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/base
 
 ## Purpose of the `<head>` Tag
 
-- The `<head>` section of an HTML document contains metadata and configuration information about the page, not content displayed to users.[1]
+- The `<head>` section of an HTML document contains metadata and configuration information about the page, not content displayed to users.
 - **Metadata** includes page title, character encoding, keywords, description, links to stylesheets/scripts, viewport settings, and more.
 - Browsers, search engines, and social platforms use this information for rendering, indexing, and sharing.
 
@@ -40,7 +40,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/base
   ```html
   <meta charset="UTF-8">
   ```
-  Supports various characters, emojis, and multilingual content; preferred value is `UTF-8` or `UTF-16` for more complete support.[1]
+  Supports various characters, emojis, and multilingual content; preferred value is `UTF-8` or `UTF-16` for more complete support.
 - **Keywords:**  
   ```html
   <meta name="keywords" content="HTML, tutorial, chai aur code">
@@ -71,7 +71,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/base
 
 - **Best Practices:**  
   - Always use `<meta charset="UTF-8">` for character encoding to prevent rendering issues with special characters and emojis.
-  - Use external CSS for maintainability; prefer `./style.css` syntax for current directory referencing.[1]
+  - Use external CSS for maintainability; prefer `./style.css` syntax for current directory referencing.
   - Inspect page responsiveness by testing with device emulators in browser dev tools.
 
 - **Common Head Mistakes:**  
@@ -84,7 +84,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/base
 
 - **Base Tag:**  
   - `<base href="...">` sets a base URL for all relative URLs in the document—for advanced use, like working with directory structures.
-  - Assignment: Practice by reading about the base tag and its practical applications on MDN.[1]
+  - Assignment: Practice by reading about the base tag and its practical applications on MDN.
 
 ***
 
