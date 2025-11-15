@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Interactive Centered Icon Card</title>
+<style>
+  /* Body centers content vertically and horizontally */
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f7fc;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Card container with shadow, padding, rounded corners */
+  .card {
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  /* Hover effect: raise card with stronger shadow */
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+
+  /* Icon style with size, color, and transition for hover */
+  .card-icon {
+    font-size: 60px;
+    color: #007bff;
+    margin-bottom: 15px;
+    transition: transform 0.5s ease, color 0.3s ease;
+  }
+
+  /* Rotate and change color on hover for interactivity */
+  .card:hover .card-icon {
+    transform: rotate(360deg);
+    color: #17a2b8;
+  }
+
+  /* Title and description text */
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+  }
+</style>
+<!-- Import font-awesome icons -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="card" tabindex="0" role="button" aria-pressed="false">
+  <div class="card-icon">
+    <i class="fas fa-star"></i>
+  </div>
+  <div class="card-title">Interactive Icon Card</div>
+  <div class="card-description">This card features a centered icon that rotates on hover for an engaging effect.</div>
+</div>
+
+</body>
+</html>
