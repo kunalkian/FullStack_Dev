@@ -78,3 +78,7 @@ const { instructor: teacher } = course;
 ***
 
 These notes explain how to destructure objects efficiently in JavaScript, understand JSON structure, and handle API data for web development use cases.
+
+Weebsites or tools-
+//randomuser me api
+//json formatter
